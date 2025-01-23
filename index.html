@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Breakout Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="controls">
+        <h1 id="score">Score: 0</h1>
+        <h2 id="level">Level: 1</h2>
+        <select id="difficulty">
+            <option value="30">Easy</option>
+            <option value="20">Medium</option>
+            <option value="10">Hard</option>
+        </select>
+        <button id="play-pause">Pause</button>
+    </div>
+    <div class="grid"></div>
+    <div id="game-message" class="game-message">
+        <p id="end-message"></p>
+        <button id="play-again">Play Again</button>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
